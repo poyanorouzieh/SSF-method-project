@@ -1,0 +1,19 @@
+# MATLAB temporary files
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.log
