@@ -5,6 +5,7 @@ A MATLAB-based quantum wave packet simulator that solves the time-dependent Schr
 ![Wave packet animation](docs/demo.gif)
 
 *Figure 1 — Time evolution of a Gaussian wave packet under a Gaussian potential.*
+
 ---
 
 ## Overview
@@ -55,7 +56,11 @@ $$
 
 ---
 
-## Project StructureSplit-Step-Fourier-Wave-Simulation/
+## Project Structure
+
+Split-Step-Fourier-Wave-Simulation/
+
+```
 ├── Start.m # Entry point — configures and runs the simulation
 ├── core/
 │ ├── SSFM.m # Split-Step Fourier solver
@@ -76,6 +81,7 @@ $$
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
 ---
 
