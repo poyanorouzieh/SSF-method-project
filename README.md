@@ -47,7 +47,7 @@ and the simulator handles the rest.
 The Split-Step Fourier Method approximates the time propagator over a small time step $\Delta t$ as:
 
 $$
-\psi(x, t+\Delta t) \approx e^{-i\hat{V}\Delta t / 2\hbar} \; \mathcal{F}^{-1}\!\left[ e^{-i\hat{T}\Delta t/\hbar} \; \mathcal{F}\!\left[ e^{-i\hat{V}\Delta t/2\hbar}\,\psi(x,t) \right] \right]
+\psi(x, t+\Delta t) \approx e^{-i\hat{V}\Delta t / 2\hbar} \. \mathcal{F}^{-1}\left[ e^{-i\hat{T}\Delta t/\hbar} \. \mathcal{F}\left[ e^{-i\hat{V}\Delta t/2\hbar}\.\psi(x,t) \right] \right]
 $$
 
 - Potential operator `V̂` is applied in **position space**
